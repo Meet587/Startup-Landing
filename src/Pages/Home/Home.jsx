@@ -8,10 +8,12 @@ import Navbar1 from "../../Components/Navbar/Navbar";
 
 const Home = () => (
   <>
-    <Navbar1 />
-    <Container className={style.home}>
+    <div className={`${style.navbar}`}>
+      <Navbar1 />
+    </div>
+    <Container className={`${style.home} container-md `}>
       <Row xs="2" className={style.main_container}>
-        <Col md="6" sm="12">
+        <Col xs="12" sm="12" md="12" lg="6" xl="6" xxl="6">
           <Heading
             mainheading={
               "Welcome to next level Cryptocurrencies Token with faster transfer"
@@ -20,10 +22,10 @@ const Home = () => (
               "We helps brands & agencies manage top-performing influencer programs: talent discovery & qualification, relationship management, automated campaign reporting, performance measurement and competitive benchmarking."
             }
           />
-          <Button1 color={'secondary'} name="GET TOKEN" />
+          <Button1 color={"secondary"} name="GET TOKEN" />
           <Button1 name="WHITE PAPER" />
         </Col>
-        <Col md="6" sm="12">
+        <Col xs="12" sm="12" md="12" lg="6" xl="6" xxl="6">
           <img className={style.banner} src={bannerpng} />
         </Col>
       </Row>

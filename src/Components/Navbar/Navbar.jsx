@@ -6,12 +6,12 @@ import logo from "../../asset/imgs/logo.svg";
 const Navbar1 = () => {
   return (
     <Navbar className={`${style.navbar} navbar-light `}>
-      <div>
+      <div  md="12" lg="6">
         <NavbarBrand href="/">
           <img src={logo} alt="Startup" />
         </NavbarBrand>
       </div>
-      <Nav>
+      <Nav  md="12" lg="6">
         <NavItem>
           <NavLink to="/"> Home </NavLink>
         </NavItem>

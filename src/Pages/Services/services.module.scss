@@ -1,0 +1,19 @@
+.service{
+    padding: 8rem;
+  line-height: 2;
+}
+.heading{
+    justify-content: space-between;
+}
+
+// ---------sercvice card -------
+
+.service_container{
+ display: flex;   
+}
+.card{
+    min-width: 30%;
+}
+.text{
+    font-size: 13px;
+}

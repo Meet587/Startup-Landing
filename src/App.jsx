@@ -2,6 +2,7 @@ import "./App.css";
 import Home from "./Pages/Home/Home";
 import Accordation from './Pages/Downloads/Accordation'
 import Form from "./Pages/Downloads/Form";
+import Services from "./Pages/Services/Services";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     {/* <Form /> */}
     {/* <Accordation /> */}
       <Home />
+      <Services />
     </>
   )
 }
